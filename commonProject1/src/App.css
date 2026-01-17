@@ -1,0 +1,41 @@
+/* Base Styles */
+body { font-family: 'Inter', sans-serif; margin: 0; background-color: #f8fafc; }
+
+/* Layout */
+.container { display: flex; max-width: 1200px; margin: 20px auto; gap: 30px; }
+
+/* Header */
+.page-header { background: #000; color: #fff; text-align: center; padding: 40px 0; }
+
+/* Sidebar */
+.filter-sidebar { width: 280px; background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #eee; }
+.filter-section { margin-bottom: 20px; }
+.filter-section h4 { margin-bottom: 10px; font-size: 14px; }
+.filter-option { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px; color: #555; }
+
+/* Job Cards */
+.job-list { flex: 1; }
+.job-card { 
+  background: #fff; 
+  padding: 20px; 
+  border-radius: 12px; 
+  margin-bottom: 15px; 
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+.job-card:hover { border-color: #26a69a; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+
+.job-body { display: flex; align-items: center; gap: 20px; margin-top: 10px; }
+.logo-circle { width: 45px; height: 45px; border-radius: 50%; background: #eee; }
+
+.job-details h3 { margin: 0; font-size: 18px; color: #333; }
+.job-meta { display: flex; gap: 15px; font-size: 12px; color: #777; margin-top: 10px; }
+
+/* Buttons */
+.details-btn { 
+  background: #26a69a; color: white; border: none; padding: 8px 16px; 
+  border-radius: 6px; cursor: pointer; margin-left: auto;
+}
+
+/* Salary Slider (Mock) */
+.salary-range { width: 100%; height: 5px; background: #26a69a; border-radius: 5px; margin: 10px 0; }

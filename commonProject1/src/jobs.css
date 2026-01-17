@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: #f5f6fa;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 6px 12px;
+}
+
+.register {
+  background: green;
+  color: white;
+  border: none;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 15px;
+}
+
+.sidebar input,
+.sidebar select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+.apply {
+  width: 100%;
+  background: green;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+/* JOB LIST */
+.jobs {
+  flex: 1;
+}
+
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.job-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  color: gray;
+}
+
+.info span {
+  margin-right: 15px;
+}
+
+.details {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+}
+
+.pagination button {
+  margin-right: 5px;
+}
